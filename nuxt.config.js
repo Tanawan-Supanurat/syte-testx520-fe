@@ -21,6 +21,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    base:{
+      href: 'router.base',
+    },
+  },
+
+  router: {
+    base: '/syte-testx520-fe',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
